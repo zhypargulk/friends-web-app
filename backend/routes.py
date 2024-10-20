@@ -41,7 +41,7 @@ def create_friends():
         db.session.add(new_friend)
         db.session.commit()
 
-        return jsonify({"msg": "Created!"}), 201
+        return jsonify(new_friend.to_json()), 201
     except Exception as e:
         db.session.rollback()
         return jsonify({"error": str(e)}), 500
