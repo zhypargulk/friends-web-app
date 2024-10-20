@@ -13,6 +13,8 @@ Welcome to the **Friends List** web application! This intuitive platform allows 
 
 This application is designed to help you keep track of your friends and their details in one convenient place, making it easier to connect and stay updated. Whether you’re managing personal connections or organizing a professional network, the Friends List app is your go-to solution!
 
+## Tech Stack: Python, React, SQLite, SQLAlchemy, Flask, Chakra UI
+
 ## CRUD Functionality
 Seamlessly create, read, update, and delete friends from your store.
 
